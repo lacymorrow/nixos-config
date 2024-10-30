@@ -70,7 +70,7 @@ Check out the step-by-step commands below to get started!
 ```
 
 ## Features
-- **Nix Flakes**: 100% flake driven, no confusing `configuration.nix` entry point, [no Nix channels](#why-nix-flakes)─ just `flake.nix`
+- **Nix Flakes**: No confusing `configuration.nix` entry point, [no Nix channels](#why-nix-flakes)─ just `flake.nix`
 - **Same Environment Everywhere**: Easily share config across Linux and macOS (both Nix and Home Manager)
 - **macOS Dream Setup**: Fully declarative macOS (Apple / Intel) w/ UI, dock and macOS App Store apps
 - **Simple Bootstrap**: Simple Nix commands to start from zero, both x86 and macOS platforms
@@ -490,7 +490,7 @@ Interested in contributing to this project? Here's how you can help:
 This project is released under the [BSD-3-Clause license](https://github.com/dustinlyons/nixos-config/blob/main/LICENSE).
 
 ### Support
-Did you find my project useful or learn more about Nix than you thought? Your support is appreciated.
+Did you find my project useful? Your support is appreciated.
 
 
 <a href="https://www.buymeacoffee.com/dustinlyons1" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
