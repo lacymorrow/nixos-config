@@ -13,18 +13,21 @@ I use it daily on my 🧑🏻‍💻 Macbook Pro and an x86 PC in my home office
 
 Check out the step-by-step commands below to get started!
 
+
 ## Table of Contents
+
 - [Nix Config for macOS + NixOS](#nix-config-for-macos--nixos)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
-  - [Layout](#layout)
   - [Features](#features)
-  - [Disclaimer](#disclaimer)
+  - [Testimonials](#testimonials)
   - [Videos](#videos)
     - [macOS](#macos)
       - [Updating dependencies with one command](#updating-dependencies-with-one-command)
       - [Instant Emacs 29 thanks to daemon mode](#instant-emacs-29-thanks-to-daemon-mode)
     - [NixOS](#nixos)
+  - [Disclaimer](#disclaimer)
+  - [Layout](#layout)
   - [Installing](#installing)
     - [For macOS (October 2024)](#for-macos-october-2024)
       - [1. Install dependencies](#1-install-dependencies)
@@ -59,15 +62,7 @@ Check out the step-by-step commands below to get started!
 
 
 
-## Layout
-```
-.
-├── apps         # Nix commands used to bootstrap and build configuration
-├── hosts        # Host-specific configuration
-├── modules      # macOS and nix-darwin, NixOS, and shared configuration
-├── overlays     # Drop an overlay file in this dir, and it runs. So far, mainly patches.
-├── templates    # Starter versions of this configuration
-```
+
 
 ## Features
 - **Nix Flakes**: No confusing `configuration.nix` entry point, [no Nix channels](#why-nix-flakes)─ just `flake.nix`
@@ -86,13 +81,15 @@ Check out the step-by-step commands below to get started!
 - **Simplicity and Readability**: Optimized for simplicity and readability in all cases, not small files everywhere
 - **Backed by Continuous Integration**: Flake auto updates weekly if changes don't break starter build
 
-## Disclaimer
-Installing Nix on macOS will create an entirely separate volume. It may exceed many gigabytes in size. 
+## Testimonials
 
-Some folks don't like this. If this is you, turn back now!
+![Screenshot 2024-10-31 at 9 32 38 AM](https://github.com/user-attachments/assets/0fb34422-adcb-41e3-b6a8-dcfebf0f40b8)
 
-> [!NOTE]
-> Don't worry, you can always [uninstall](https://github.com/DeterminateSystems/nix-installer#uninstalling) Nix later.
+![Screenshot 2024-10-31 at 11 07 07 AM](https://github.com/user-attachments/assets/53873d42-de6e-4368-9184-c9b71b6ebd01)
+
+![Screenshot 2024-10-31 at 9 33 27 AM](https://github.com/user-attachments/assets/eaf19ca6-2fb9-4536-98b6-8df70aa04039)
+
+![Screenshot 2024-10-31 at 11 00 11 AM](https://github.com/user-attachments/assets/8f306a62-5a89-4f10-ab08-c151e7951c27)
 
 ## Videos
 ### macOS
@@ -111,6 +108,24 @@ https://github.com/dustinlyons/nixos-config/assets/1292576/d96f59ce-f540-4f14-bc
 ### NixOS
 
 https://github.com/dustinlyons/nixos-config/assets/1292576/fa54a87f-5971-41ee-98ce-09be048018b8
+
+## Disclaimer
+Installing Nix on macOS will create an entirely separate volume. It may exceed many gigabytes in size. 
+
+Some folks don't like this. If this is you, turn back now!
+
+> [!NOTE]
+> Don't worry, you can always [uninstall](https://github.com/DeterminateSystems/nix-installer#uninstalling) Nix later.
+
+## Layout
+```
+.
+├── apps         # Nix commands used to bootstrap and build configuration
+├── hosts        # Host-specific configuration
+├── modules      # macOS and nix-darwin, NixOS, and shared configuration
+├── overlays     # Drop an overlay file in this dir, and it runs. So far, mainly patches.
+├── templates    # Starter versions of this configuration
+```
 
 ## Installing
 ## For macOS (October 2024)
